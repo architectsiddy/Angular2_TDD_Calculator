@@ -1,4 +1,4 @@
-# Angular2 TDD Calculator
+# Angular2 BDD/TDD Calculator
 
 
 ## Development server
@@ -13,7 +13,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
 Before running the tests make sure you are serving the app via `ng serve`.
 
-# TDD - Test Driven Development Steps
+# BDD/TDD Steps
 
 ##Step 1: Create project via Angular-cli 
  ng new Angular2_TDD_Caculator
@@ -26,7 +26,7 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ###Acceptance Test1:   
 Feature: Calculator  
 Scenario: User can load the calculator.  
-Given: I am in the Home page,  
+Given: I am in the Home-page,  
 When: I click calculator Link,  
 Then: Should display title as "Calculator"    
 
