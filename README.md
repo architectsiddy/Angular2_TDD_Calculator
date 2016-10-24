@@ -30,5 +30,6 @@ Given: I am in the Home page,
 When: I click calculator Link,  
 Then: Should display title as "Calculator"    
 
-
+Note: Angular2 Testing  
+Page Class/Object is used to simplify access to Calculator Component Properties during Testing.  
 
