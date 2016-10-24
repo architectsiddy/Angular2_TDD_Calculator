@@ -27,8 +27,8 @@ Before running the tests make sure you are serving the app via `ng serve`.
 Feature: Calculator  
 Scenario: User can load the calculator.  
 Given: I am in the Home page,  
-When: I click calculator Link, 
-Then: Should display title as "Calculator"   
+When: I click calculator Link,  
+Then: Should display title as "Calculator"    
 
 
 
