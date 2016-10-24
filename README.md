@@ -1,17 +1,8 @@
-# Angular2TDDCalculator
+# Angular2 TDD Calculator
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
 ## Running unit tests
 
@@ -22,10 +13,21 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
 Before running the tests make sure you are serving the app via `ng serve`.
 
-## Deploying to Github Pages
+# TDD - Test Driven Development Steps
 
-Run `ng github-pages:deploy` to deploy to Github Pages.
+##Step 1: Create project via Angular-cli 
+ ng new Angular2_TDD_Caculator
+ 
+ 
+##Step 2: Added router module for Links.
 
-## Further help
+##Step 3: Implment the following User Stories using BDD/TDD.
 
-To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+###Acceptance Test1: 
+Feature: Calculator
+Scenario: User can load the calculator.
+Given: I am in the Home page,
+When: I click calculator Link,
+Then: Should display title as "Calculator" 
+
+
