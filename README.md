@@ -23,11 +23,12 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 ##Step 3: Implment the following User Stories using BDD/TDD.
 
-###Acceptance Test1: 
-Feature: Calculator
-Scenario: User can load the calculator.
-Given: I am in the Home page,
-When: I click calculator Link,
-Then: Should display title as "Calculator" 
+###Acceptance Test1:   
+Feature: Calculator  
+Scenario: User can load the calculator.  
+Given: I am in the Home page,  
+When: I click calculator Link, 
+Then: Should display title as "Calculator"   
+
 
 
